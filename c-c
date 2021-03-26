@@ -19,3 +19,6 @@ if xd == "n":
     print("Okay please restart the script!")
 else:
     print("Not sure what you put there.. please no caps. Restart the script")
+
+
+#this will compile c++ without typing out g++ etc
