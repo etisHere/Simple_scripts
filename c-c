@@ -1,0 +1,21 @@
+import os
+from time import sleep
+#Taking info about the file loc
+xs = input("Wheres the file?: ")
+#taking info about the name change
+nen = input("What are we calling this?: ")
+#adding everything from above together with g++ for compile and -o for name change
+cpp = "g++ "+xs+" -o "
+#Double checking to make sure you typed in the correct loc
+#NOTE: if you trust yourself enough not to be asked: 
+#   COPY: os.system(cpp+nen) and remove everything below here
+#   paste under cpp and run.
+xd = input("Okay about to run "+cpp+nen+" is that okay?(y/n): ")
+if xd == "y":
+    os.system(cpp+nen)
+    print("Okay! your file: "+nen+" should be where you ran this..")
+    print("\nIf not please make sure you put everything the way it should...")
+if xd == "n":
+    print("Okay please restart the script!")
+else:
+    print("Not sure what you put there.. please no caps. Restart the script")
