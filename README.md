@@ -5,14 +5,11 @@
 # The scripts
 
 c-c - compiles C++
-  TODO:
-    ~Add C
-    ~Add C#
-
+ 
 ytgotobed - embeds youtube video's
-  TODO:
-    ~Add op to add a bash cmd
-    ~Add op to change window size
+    TODO:
+      ~Add op to add a bash cmd
+      ~Add op to change window size
    
 # BUGS:
     None, who adds those? 
