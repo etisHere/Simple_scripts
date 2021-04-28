@@ -15,5 +15,5 @@ ytgotobed - embeds youtube video's
     ~Add op to change window size
    
 # BUGS:
-    None, who add's those? 
+    None, who adds those? 
     
